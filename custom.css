@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: palevioletred;
+}
+header{
+    height: 200px;
+    padding: 18px 0;
+    background-color: aliceblue;
+}
+
+@media (min-width: 1024px){
+    aside{
+        float: left;
+        clear: both;
+        width: 25%;
+        text-align: center;
+    }
+    main{
+        width: 75%;
+        float: left;
+    }
+}
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: palevioletred;
+    clear: both;
+    background-color: aliceblue;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+}
+
+#logoMa{
+    float: right;
+    padding-top: 18px;
+    padding-right: 25px;
+    width: 200px;
+    padding-bottom: 10px;
+}
+.clear{
+    clear: both;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+}
+#fotoMa{
+    width: 200px;
+}
+#descPerfil{
+    padding-bottom: 20px;
+    color: palevioletred;
+}
+.tituloMain{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.foto{
+    width: 255px;
+    height: 255px;
+}
+section{
+    text-align: center;
+}
+#menu{
+    list-style-type: none;
+    float: right;
+    padding-right: 15%;
+}
+a{
+    color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    padding-right: 25px;
+    text-decoration: none;
+}
+p{
+    color:black;
+}
+input[type=text], input[type=email], textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: rgb(228, 220, 220);
+    color: palevioletred;
+    border: 1px solid black;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+form{
+    background-color: aliceblue;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
