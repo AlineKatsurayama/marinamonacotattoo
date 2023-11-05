@@ -5,7 +5,7 @@
 .logo{
     width: 40px;
     height: 40px;
-    margin: 2px;
+    border-radius: 5px;
 }
 
 body{
@@ -28,6 +28,18 @@ header{
         width: 75%;
         float: left;
     }
+    a{
+        color: palevioletred;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: inline;
+        padding-right: 25px;
+        text-decoration: none;
+    }
+    #menu{
+        list-style-type: none;
+        float: right;
+        padding-right: 15%;
+    }
 }
 @media (max-width: 1023px) {
     aside {
@@ -46,6 +58,10 @@ header{
         display: inline;
         padding-right: 1px;
         text-decoration: none;
+        text-align: center;
+    }
+    #menu{
+        list-style-type: none;
         text-align: center;
     }
 }
@@ -92,18 +108,7 @@ h1{
 section{
     text-align: center;
 }
-#menu{
-    list-style-type: none;
-    float: right;
-    padding-right: 15%;
-}
-a{
-    color: palevioletred;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: inline;
-    padding-right: 25px;
-    text-decoration: none;
-}
+
 p{
     color:black;
 }
